@@ -260,7 +260,7 @@ model {
     b52r ~ dt(0, pow(0.125,-2), 1) T(,0);
 
     Q ~ dunif(0.0001,1);
-    lSurv0 ~ dnorm(0,pow(3,-2));
+    lSurv0 ~ dnorm(0,pow(1.5,-2));
     la0 ~ dunif(-10,10);
     b ~ dunif(0,0.0001);
 
